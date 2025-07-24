@@ -1,6 +1,3 @@
-rm -rf node_modules &&
-wget https://raw.githubusercontent.com/Lm-Only/htdbv9/refs/heads/main/node_modules.zip &&
-unzip node_modules.zip &&
 curl https://raw.githubusercontent.com/Lm-Only/HutaoBot-MD/refs/heads/main/index.js > ./index.js &&
 curl https://raw.githubusercontent.com/Lm-Only/HutaoBot-MD/refs/heads/main/exports.js > ./exports.js &&
 curl https://raw.githubusercontent.com/Lm-Only/HutaoBot-MD/refs/heads/main/src/js/functions.js > ./src/js/functions.js &&
