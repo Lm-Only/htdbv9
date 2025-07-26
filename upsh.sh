@@ -9,8 +9,6 @@ curl https://raw.githubusercontent.com/Lm-Only/HutaoBot-MD/refs/heads/main/dono/
 
 curl https://raw.githubusercontent.com/Lm-Only/HutaoBot-MD/refs/heads/main/src/js/scraper/instadl.js > ./src/js/scraper/instadl.js &&
 
-[ ! -f "./dono/messages_global.json" ] && curl -s https://raw.githubusercontent.com/Lm-Only/HutaoBot-MD/refs/heads/main/dono/messages_global.json > ./dono/messages_global.json &&
-
 cd ./src/js &&
 mkdir -p system && 
 cd system &&
