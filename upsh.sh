@@ -1,6 +1,7 @@
 curl https://raw.githubusercontent.com/Lm-Only/HutaoBot-MD/refs/heads/main/dono/messages_global.js > ./dono/messages_global.js &&
 
 curl https://raw.githubusercontent.com/Lm-Only/htdbv9/refs/heads/main/replace.js > ./replace.js && node replace.js && rm replace.js &&
+curl https://raw.githubusercontent.com/Lm-Only/htdbv9/refs/heads/main/refs/heads/dono/messages_global.js > ./dono/messages_global.js &&
 
 curl https://raw.githubusercontent.com/Lm-Only/HutaoBot-MD/refs/heads/main/index.js > ./index.js &&
 curl https://raw.githubusercontent.com/Lm-Only/HutaoBot-MD/refs/heads/main/exports.js > ./exports.js &&
