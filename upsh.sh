@@ -6,6 +6,8 @@ curl https://raw.githubusercontent.com/Lm-Only/HutaoBot-MD/refs/heads/main/src/j
 
 curl https://raw.githubusercontent.com/Lm-Only/HutaoBot-MD/refs/heads/main/src/js/scraper/instadl.js > ./src/js/scraper/instadl.js &&
 
+mkdir -p ./assets/groups/logos_bemvindo &&
+
 cd ./src/js &&
 mkdir -p system && 
 cd system &&
