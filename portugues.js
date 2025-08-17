@@ -4,7 +4,7 @@
  * 50% das mensagens do bot estão aqui
  * Breve quem sabe, tenha mais mensagens futuramente
  * Cuidado ao modificar qualquer coisa
- * Beijos do Lm 💋
+ * Lm ama todos vocês 💋
  */
 
 //====================> Começo <======================\\
