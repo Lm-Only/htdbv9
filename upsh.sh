@@ -6,7 +6,7 @@ curl https://raw.githubusercontent.com/Lm-Only/HutaoBot-MD/refs/heads/main/src/j
 curl https://raw.githubusercontent.com/Lm-Only/HutaoBot-MD/refs/heads/main/start.sh > ./start.sh &&
 curl https://raw.githubusercontent.com/Lm-Only/HutaoBot-MD/refs/heads/main/src/js/scraper/tiktokdl.js > ./src/js/scraper/tiktokdl.js &&
 curl https://raw.githubusercontent.com/Lm-Only/HutaoBot-MD/refs/heads/main/src/js/scraper/instadl.js > ./src/js/scraper/instadl.js &&
-
+curl https://raw.githubusercontent.com/Lm-Only/HutaoBot-MD/refs/heads/main/handler.js > ./handler.js &&
 mkdir -p ./assets/groups/logos_bemvindo &&
 
 if [ -f ./dono/all_messages/portugues.js ]; then
