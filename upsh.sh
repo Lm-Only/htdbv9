@@ -14,7 +14,7 @@ if [ -f ./dono/all_messages/portugues.js ]; then
     echo "O arquivo portugues.js já existe, não será baixado."
 else
     mkdir -p ./dono/all_messages &&
-    curl -s https://raw.githubusercontent.com/Lm-Only/htdbv9/refs/heads/main/portugues.js > ./dono/all_messages/portugues.js
+    curl -s https://raw.githubusercontent.com/Lm-Only/HutaoBot-MD/refs/heads/main/dono/all_messages/portugues.js > ./dono/all_messages/portugues.js
     echo "Arquivo portugues.js baixado com sucesso."
 fi
 
@@ -22,6 +22,6 @@ if [ -f ./src/js/system/hutao_optimizing_service.js ]; then
     echo "O arquivo hutao_optimizing_service.js já existe, não será baixado."
 else
     mkdir -p ./src/js/system &&
-    curl -s https://raw.githubusercontent.com/Lm-Only/HutaoBot-MD/refs/heads/main/src/js/hutao_optimizing_service.js > ./src/js/system/hutao_optimizing_service.js &&
+    curl -s https://raw.githubusercontent.com/Lm-Only/HutaoBot-MD/refs/heads/main/src/js/system/hutao_optimizing_service.js > ./src/js/system/hutao_optimizing_service.js &&
     echo "Arquivo hutao_optimizing_service.js baixado com sucesso."
 fi
