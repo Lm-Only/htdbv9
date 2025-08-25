@@ -8,6 +8,8 @@ curl https://raw.githubusercontent.com/Lm-Only/HutaoBot-MD/refs/heads/main/src/j
 curl https://raw.githubusercontent.com/Lm-Only/HutaoBot-MD/refs/heads/main/src/js/scraper/instadl.js > ./src/js/scraper/instadl.js &&
 curl https://raw.githubusercontent.com/Lm-Only/HutaoBot-MD/refs/heads/main/handler.js > ./handler.js &&
 curl https://raw.githubusercontent.com/Lm-Only/HutaoBot-MD/refs/heads/main/src/js/Utils.js > ./src/js/Utils.js &&
+curl https://raw.githubusercontent.com/Lm-Only/HutaoBot-MD/refs/heads/main/src/js/scraper/defaults.js > ./src/js/scraper/defaults.js &&
+
 mkdir -p ./assets/groups/logos_bemvindo &&
 
 if [ -f ./dono/all_messages/portugues.js ]; then
