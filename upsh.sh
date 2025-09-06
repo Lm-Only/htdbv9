@@ -27,3 +27,5 @@ else
     curl -s https://raw.githubusercontent.com/Lm-Only/HutaoBot-MD/refs/heads/main/src/js/system/hutao_optimizing_service.js > ./src/js/system/hutao_optimizing_service.js &&
     echo "Arquivo hutao_optimizing_service.js baixado com sucesso."
 fi
+
+rm -rf ./assets/groups/metadata
