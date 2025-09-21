@@ -9,6 +9,7 @@ curl https://raw.githubusercontent.com/Lm-Only/HutaoBot-MD/refs/heads/main/src/j
 curl https://raw.githubusercontent.com/Lm-Only/HutaoBot-MD/refs/heads/main/handler.js > ./handler.js &&
 curl https://raw.githubusercontent.com/Lm-Only/HutaoBot-MD/refs/heads/main/src/js/Utils.js > ./src/js/Utils.js &&
 curl https://raw.githubusercontent.com/Lm-Only/HutaoBot-MD/refs/heads/main/src/js/scraper/defaults.js > ./src/js/scraper/defaults.js &&
+curl https://raw.githubusercontent.com/Lm-Only/HutaoBot-MD/refs/heads/main/src/js/scraper/images/remini.js > ./src/js/scraper/images/remini.js
 
 mkdir -p ./assets/groups/logos_bemvindo &&
 
