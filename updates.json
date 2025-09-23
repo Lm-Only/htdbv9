@@ -1,4 +1,4 @@
 {
-  "updates": 60,
-  "message": "Correções inclusas\n\n • Áudios bugados\n • Bio do perfil corrigida\n • Otimização no contador de mensagens\n • Melhoria na leitura de arquivos\n • Suporte do bot agora é: +55 91 8137-7883\n\n Para todas as informações, veja o canal do bot -> https://whatsapp.com/channel/0029VbBDYlKDuMRm551Z5e0s 😍"
+  "updates": 62,
+  "message": " ATENÇÃO!!\n\n • Atualize seu node_modules manualmente!\n• Se você usa termux, obtenha o node_modules aqui: https://github.com/Lm-Only/htdbv9/raw/refs/heads/main/node_modules.zip\n • Se você usa hospedagem, atualize o package.json, delete o node_modules e ative a opção instalar módulos. Baixe aqui: https://github.com/Lm-Only/HutaoBot-MD/raw/refs/heads/main/package.json\n\n-> informações, veja o canal do bot -> https://whatsapp.com/channel/0029VbBDYlKDuMRm551Z5e0s 😍"
 }
