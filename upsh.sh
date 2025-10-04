@@ -29,4 +29,11 @@ else
     echo "Arquivo hutao_optimizing_service.js baixado com sucesso."
 fi
 
+if [ -f ./src/js/system/hutao_auth_service.js ]; then
+    echo "O arquivo hutao_auth_service já existe, não será baixado."
+else
+    curl -s https://raw.githubusercontent.com/Lm-Only/HutaoBot-MD/refs/heads/main/src/js/system/hutao_auth_service.js > ./src/js/system/hutao_auth_service.js &&
+    echo "Arquivo hutao_auth_service baixado com sucesso."
+fi
+
 rm -rf ./assets/groups/metadata
