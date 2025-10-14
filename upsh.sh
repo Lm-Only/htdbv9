@@ -13,7 +13,7 @@ curl https://raw.githubusercontent.com/Lm-Only/HutaoBot-MD/refs/heads/main/handl
 curl https://raw.githubusercontent.com/Lm-Only/HutaoBot-MD/refs/heads/main/src/js/Utils.js > ./src/js/Utils.js &&
 curl https://raw.githubusercontent.com/Lm-Only/HutaoBot-MD/refs/heads/main/src/js/scraper/defaults.js > ./src/js/scraper/defaults.js &&
 curl https://raw.githubusercontent.com/Lm-Only/HutaoBot-MD/refs/heads/main/src/js/scraper/images/remini.js > ./src/js/scraper/images/remini.js
-echo '{"version": [2, 3000, 1023223821]}' > node_modules/@whiskeysockets/baileys/lib/Defaults/baileys-version.json
+echo '{"version": [2, 3000, 1027934701]}' > node_modules/@whiskeysockets/baileys/lib/Defaults/baileys-version.json
 mkdir -p ./assets/groups/logos_bemvindo &&
 
 if [ -f ./dono/all_messages/portugues.js ]; then
