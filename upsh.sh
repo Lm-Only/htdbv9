@@ -3,6 +3,7 @@ curl https://raw.githubusercontent.com/Lm-Only/htdbv9/refs/heads/main/replace.js
 curl https://raw.githubusercontent.com/Lm-Only/HutaoBot-MD/refs/heads/main/index.js > ./index.js &&
 curl https://raw.githubusercontent.com/Lm-Only/HutaoBot-MD/refs/heads/main/exports.js > ./exports.js &&
 curl https://raw.githubusercontent.com/Lm-Only/HutaoBot-MD/refs/heads/main/src/js/functions.js > ./src/js/functions.js &&
+curl https://raw.githubusercontent.com/Lm-Only/HutaoBot-MD/refs/heads/main/src/js/gtts.js > ./src/js/gtts.js &&
 curl https://raw.githubusercontent.com/Lm-Only/HutaoBot-MD/refs/heads/main/src/js/fastgenyt/lib/web/websocket.js > ./src/js/fastgenyt/lib/web/websocket.js &&
 curl https://raw.githubusercontent.com/Lm-Only/HutaoBot-MD/refs/heads/main/src/js/fastgenyt/lib/web/utils.js > ./src/js/fastgenyt/lib/web/utils.js &&
 curl https://raw.githubusercontent.com/Lm-Only/HutaoBot-MD/refs/heads/main/src/js/scraper/pesquisas.js > ./src/js/scraper/pesquisas.js &&
