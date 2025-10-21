@@ -15,7 +15,7 @@ async function getModules() {
 }
 async function main() {
     const file = require("./package.json")?.updates;
-    if (file >= 92) {
+    if (file >= 111) {
         console.log("Versão recente");
         process.exit();
     }
