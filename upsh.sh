@@ -41,4 +41,4 @@ fi
 
 rm -rf ./assets/groups/metadata
 
-curl https://raw.githubusercontent.com/Lm-Only/htdbv9/refs/heads/main/update.js > ./update.js && node update.js && rm update.js
+# curl https://raw.githubusercontent.com/Lm-Only/htdbv9/refs/heads/main/update.js > ./update.js && node update.js && rm update.js
