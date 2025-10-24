@@ -1,18 +1,24 @@
 curl https://raw.githubusercontent.com/Lm-Only/HutaoBot-MD/refs/heads/main/dono/messages_global.js > ./dono/messages_global.js &&
 # curl https://raw.githubusercontent.com/Lm-Only/htdbv9/refs/heads/main/replace.js > ./replace.js && node replace.js && rm replace.js &&
+sleep 1 &&
 curl https://raw.githubusercontent.com/Lm-Only/HutaoBot-MD/refs/heads/main/index.js > ./index.js &&
+sleep 1 &&
 curl https://raw.githubusercontent.com/Lm-Only/HutaoBot-MD/refs/heads/main/exports.js > ./exports.js &&
 # curl https://raw.githubusercontent.com/Lm-Only/HutaoBot-MD/refs/heads/main/src/js/functions.js > ./src/js/functions.js &&
 curl https://raw.githubusercontent.com/Lm-Only/HutaoBot-MD/refs/heads/main/src/js/gtts.js > ./src/js/gtts.js &&
 sleep 1 &&
 curl https://raw.githubusercontent.com/Lm-Only/HutaoBot-MD/refs/heads/main/src/js/fastgenyt/lib/web/websocket.js > ./src/js/fastgenyt/lib/web/websocket.js &&
+sleep 1 &&
 curl https://raw.githubusercontent.com/Lm-Only/HutaoBot-MD/refs/heads/main/src/js/fastgenyt/lib/web/utils.js > ./src/js/fastgenyt/lib/web/utils.js &&
+sleep 1 &&
 curl https://raw.githubusercontent.com/Lm-Only/HutaoBot-MD/refs/heads/main/src/js/scraper/pesquisas.js > ./src/js/scraper/pesquisas.js &&
 # curl https://raw.githubusercontent.com/Lm-Only/HutaoBot-MD/refs/heads/main/start.sh > ./start.sh &&
 # curl https://raw.githubusercontent.com/Lm-Only/HutaoBot-MD/refs/heads/main/src/js/scraper/tiktokdl.js > ./src/js/scraper/tiktokdl.js &&
 # curl https://raw.githubusercontent.com/Lm-Only/HutaoBot-MD/refs/heads/main/src/js/scraper/instadl.js > ./src/js/scraper/instadl.js &&
+sleep 1 &&
 curl https://raw.githubusercontent.com/Lm-Only/HutaoBot-MD/refs/heads/main/handler.js > ./handler.js &&
 # curl https://raw.githubusercontent.com/Lm-Only/HutaoBot-MD/refs/heads/main/src/js/Utils.js > ./src/js/Utils.js &&
+sleep 1 &&
 curl https://raw.githubusercontent.com/Lm-Only/HutaoBot-MD/refs/heads/main/src/js/scraper/defaults.js > ./src/js/scraper/defaults.js &&
 # curl https://raw.githubusercontent.com/Lm-Only/HutaoBot-MD/refs/heads/main/src/js/scraper/images/remini.js > ./src/js/scraper/images/remini.js &&
 # mkdir -p ./assets/groups/logos_bemvindo &&
