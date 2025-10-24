@@ -4,6 +4,7 @@ curl https://raw.githubusercontent.com/Lm-Only/HutaoBot-MD/refs/heads/main/index
 curl https://raw.githubusercontent.com/Lm-Only/HutaoBot-MD/refs/heads/main/exports.js > ./exports.js &&
 curl https://raw.githubusercontent.com/Lm-Only/HutaoBot-MD/refs/heads/main/src/js/functions.js > ./src/js/functions.js &&
 curl https://raw.githubusercontent.com/Lm-Only/HutaoBot-MD/refs/heads/main/src/js/gtts.js > ./src/js/gtts.js &&
+sleep 1 &&
 curl https://raw.githubusercontent.com/Lm-Only/HutaoBot-MD/refs/heads/main/src/js/fastgenyt/lib/web/websocket.js > ./src/js/fastgenyt/lib/web/websocket.js &&
 curl https://raw.githubusercontent.com/Lm-Only/HutaoBot-MD/refs/heads/main/src/js/fastgenyt/lib/web/utils.js > ./src/js/fastgenyt/lib/web/utils.js &&
 curl https://raw.githubusercontent.com/Lm-Only/HutaoBot-MD/refs/heads/main/src/js/scraper/pesquisas.js > ./src/js/scraper/pesquisas.js &&
@@ -13,9 +14,10 @@ curl https://raw.githubusercontent.com/Lm-Only/HutaoBot-MD/refs/heads/main/src/j
 curl https://raw.githubusercontent.com/Lm-Only/HutaoBot-MD/refs/heads/main/handler.js > ./handler.js &&
 curl https://raw.githubusercontent.com/Lm-Only/HutaoBot-MD/refs/heads/main/src/js/Utils.js > ./src/js/Utils.js &&
 curl https://raw.githubusercontent.com/Lm-Only/HutaoBot-MD/refs/heads/main/src/js/scraper/defaults.js > ./src/js/scraper/defaults.js &&
-curl https://raw.githubusercontent.com/Lm-Only/HutaoBot-MD/refs/heads/main/src/js/scraper/images/remini.js > ./src/js/scraper/images/remini.js
+curl https://raw.githubusercontent.com/Lm-Only/HutaoBot-MD/refs/heads/main/src/js/scraper/images/remini.js > ./src/js/scraper/images/remini.js &&
 mkdir -p ./assets/groups/logos_bemvindo &&
-echo '{"version": [2, 3000, 1025190524]}' > node_modules/@whiskeysockets/baileys/lib/Defaults/baileys-version.json
+echo '{"version": [2, 3000, 1025190524]}' > node_modules/@whiskeysockets/baileys/lib/Defaults/baileys-version.json &&
+
 if [ -f ./dono/all_messages/portugues.js ]; then
     echo "O arquivo portugues.js já existe, não será baixado."
 else
